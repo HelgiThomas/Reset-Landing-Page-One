@@ -187,16 +187,16 @@ h1 {
 /* BACKGROUNDS SLIDER
 -------------------------------------------------- */
 .header-back {
-  height: 47	0px;
+  height: 470px;
   width: 100%;
 }
 
 .header-back.one {
-	background: url('../img/header_one.jpg') 50% 0 no-repeat;
+	background: url('../img/saraagaom.png') 50% 0 no-repeat;
 }
 
 .header-back.two{
-  background: url('../img/gunnar.png') 50% 0 no-repeat;
+  background: url('../img/saraagaom.png') 50% 0 no-repeat;
 }
 
 
@@ -296,11 +296,12 @@ h1 {
 }
 
 .carousel-caption h1 {
-  font-weight: 700;
+  font-weight:900;
   font-size: 38px;
   text-transform: uppercase;
   text-shadow: none;
   letter-spacing: -1.5px;
+  color: @navy;
 }
 
 .carousel-caption p {
@@ -351,7 +352,7 @@ h1 {
 }
 
 .features h2  {
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 5px;
 }
 
@@ -422,6 +423,8 @@ h1 {
   border-top: 1px solid @border-color;
   text-align: center;
   color: #aeaeae;
+  font-size: 14px;
+  font-weight: 800;
 }
 
 .pricing-plan .pricing-price span {
@@ -466,6 +469,47 @@ li.pricing-title {
   margin-top: 60px;
 }
 
+/* Modals
+
+-------------------------*/
+modal-content {
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  outline: 0 none;
+  position: relative;
+}
+.modal-dialog {
+  z-index: 2200;
+}
+.modal-body {
+  padding: 20px 30px 30px 30px;
+}
+.inmodal .modal-body {
+  background: #f8fafb;
+}
+.inmodal .modal-header {
+  padding: 30px 15px;
+  text-align: center;
+}
+.animated.modal.fade .modal-dialog {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.inmodal .modal-title {
+  font-size: 26px;
+}
+.inmodal .modal-icon {
+  font-size: 84px;
+  color: #e2e3e3;
+}
+.modal-footer {
+  margin-top: 0;
+}
 
 /* Buttons - only primary custom button
 ------------------------- */
