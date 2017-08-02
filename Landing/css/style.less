@@ -8,10 +8,13 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
 
 // Variables
-@navy: #1ab394;         // Primary color
+@navy: #f72e2e;         // Primary color
 @text-color: #676a6c;   // Body text
 @border-color: #e7eaec; // Border
 
+// Litir
+// Rauður: #f72e2e
+// navy grænn: #1ab394
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -443,6 +446,10 @@ li.pricing-title {
   color: #fff;
   padding: 10px;
   border-radius: 4px 4px 0 0;
+  
+  -webkit-box-shadow: 7px -7px 4px -4px rgba(38,38,38,0.3);
+-moz-box-shadow: 7px -7px 4px -4px rgba(38,38,38,0.3);
+box-shadow: 7px -7px 4px -4px rgba(38,38,38,0.3);
   font-size: 22px;
   font-weight: 600;
 }
@@ -525,10 +532,18 @@ modal-content {
   background-color: @navy;
   border-color: @navy;
   color: #FFFFFF;
-
+	
   font-size: 14px;
   padding: 10px 20px;
   font-weight: 600;
+}
+
+.package-button {
+	padding-top: 3px;
+}
+
+.makeBlack {
+	background-color: #0f0e0e !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
@@ -1210,8 +1225,10 @@ section.comments {
   clear: both;
 }
 .vertical-timeline-content h2 {
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 4px;
+  font-size: 25px !important;
+  text-align: center;
 }
 
 
