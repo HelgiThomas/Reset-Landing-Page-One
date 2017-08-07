@@ -12,9 +12,13 @@
 @text-color: #676a6c;   // Body text
 @border-color: #e7eaec; // Border
 
-// Litir
+// Litir fyrir allt
 // Rauður: #f72e2e
 // navy grænn: #1ab394
+
+// Litir fyrir text
+// ljós grár: #676a6c
+// aðeins dekri grár: #5c5f61
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
@@ -41,12 +45,14 @@ a.navy-link:hover {
 }
 
 section p {
-  color: #aeaeae;
+  color: #525456;
+	// gamli litur: #aeaeae
   font-size: 15px;
 }
 
 address {
-  font-size: 13px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 h1 {
@@ -304,7 +310,7 @@ h1 {
   text-transform: uppercase;
   text-shadow: none;
   letter-spacing: -1.5px;
-  color: @navy;
+  color: #fff;
 }
 
 .carousel-caption p {
@@ -425,9 +431,10 @@ h1 {
   padding: 10px 16px;
   border-top: 1px solid @border-color;
   text-align: center;
-  color: #aeaeae;
+  //color: #aeaeae;
+	color: #686868;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .pricing-plan .pricing-price span {
@@ -538,12 +545,8 @@ modal-content {
   font-weight: 600;
 }
 
-.package-button {
-	padding-top: 3px;
-}
-
 .makeBlack {
-	background-color: #0f0e0e !important;
+	background-color: #262626 !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
@@ -561,6 +564,12 @@ modal-content {
   border-color: lighten(@navy, 4%);
 }
 
+/*  SMALL CUSTOM CSS
+-------------------------------------------------- */
+
+.exentuate {
+	font-weight:800 !important;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
